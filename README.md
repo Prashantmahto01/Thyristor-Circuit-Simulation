@@ -24,5 +24,7 @@ This repository demonstrates the simulation of a Thyristor-based circuit using a
 - **Voltage and Current Waveforms**: The output voltage and current waveforms are in phase, typical for a purely resistive load. The waveforms demonstrate how the Thyristor controls the load voltage by varying the firing angle, directly affecting the load current.
 - **Effect of Ramp Block**: The ramp block with a slope of one ensures that the gate pulse gradually increases, allowing a smooth transition in the Thyristor's firing angle, which results in a controlled output voltage rise across the resistive load.
 
+![aaa](https://github.com/user-attachments/assets/27dd3d53-27b5-4284-9822-46e9d9f522de)
+*Figure: Thyristor Circuit Simulation Results in Simulink*
 #### Conclusion
 This simulation provides a fundamental understanding of Thyristor operation in a DC circuit with a resistive load. By adjusting the firing angle via the pulse generator and ramp block, the output voltage and current can be effectively controlled. This setup is crucial for applications requiring precise voltage and current regulation.
