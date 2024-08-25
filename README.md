@@ -29,6 +29,9 @@ This repository demonstrates the simulation of a Thyristor-based circuit using a
 #### Conclusion
 This simulation provides a fundamental understanding of Thyristor operation in a DC circuit with a resistive load. By adjusting the firing angle via the pulse generator and ramp block, the output voltage and current can be effectively controlled. This setup is crucial for applications requiring precise voltage and current regulation.
 
+git add thyristor_dc_rload.slx
+git commit -m "Add MATLAB simulation file for Thyristor circuit with R load"
+git push origin main
 
 
 
