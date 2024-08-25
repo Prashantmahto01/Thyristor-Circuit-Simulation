@@ -22,6 +22,3 @@ This repository demonstrates the simulation of a Thyristor-based circuit using a
 
 #### Conclusion
 This simulation provides a fundamental understanding of Thyristor operation in a DC circuit with a resistive load. By adjusting the firing angle via the pulse generator and ramp block, the output voltage and current can be effectively controlled. This setup is crucial for applications requiring precise voltage and current regulation.
-
----
-Feel free to clone the repository, explore the simulation files, and run the simulation to observe the behavior of the Thyristor circuit with a resistive load.
