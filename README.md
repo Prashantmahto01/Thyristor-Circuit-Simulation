@@ -15,6 +15,9 @@ This repository demonstrates the simulation of a Thyristor-based circuit using a
 - **Thyristor Operation**: The Thyristor remains in the off state until a gate pulse is applied. Once triggered, it allows current to flow through the resistive load, provided the input voltage is positive.
 - **Firing Angle Control**: The firing angle of the Thyristor is controlled by the pulse generator, which modulates when the gate pulse is applied. This allows for the control of the output voltage across the resistive load.
 - **Output Waveform**: When the Thyristor is triggered, the output voltage across the resistive load increases according to the input voltage until the Thyristor turns off. The current through the load follows a similar pattern, as it is directly proportional to the voltage in a resistive circuit.
+- 
+![Thyristor Circuit Simulation](simulation_screenshot.png)
+*Figure: Thyristor Circuit Simulation in Simulink*
 
 #### Results and Analysis
 - **Voltage and Current Waveforms**: The output voltage and current waveforms are in phase, typical for a purely resistive load. The waveforms demonstrate how the Thyristor controls the load voltage by varying the firing angle, directly affecting the load current.
